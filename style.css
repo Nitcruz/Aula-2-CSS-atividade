@@ -5,6 +5,7 @@
 }
 
 header{
+  background-color: yellow;  
     display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
@@ -12,7 +13,7 @@ header{
   
   }
 nav{
-  background-color: yellow;  
+  
   text-decoration: none;
 }
 
