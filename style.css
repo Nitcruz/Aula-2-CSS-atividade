@@ -6,16 +6,12 @@
 
 header{
   background-color: yellow;  
-    display: flex;
+  display: flex;
   justify-content: space-between;
-
-  padding-bottom: 1rem;
- 
-  
+  padding-bottom: 1rem;   
   }
 
-nav{
-  
+nav{  
   text-decoration: none;
 }
 
@@ -31,14 +27,27 @@ li{
  a{
   text-decoration: none;
  }
+ h1{
+  font-size: 40px;
+ } 
 
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+  font-size: 24px;
+  margin-bottom: 10px;  
+}
  main {
-  background-color: aqua;
   padding-top: 10px;
   color: white;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto; 
  }
 section{
   display: flex;
+  justify-content: center;  
 }
  div{
   background-image: url("./img/bg_laranja.jpg");
@@ -46,6 +55,11 @@ section{
   padding: 1rem;
   width: 300px;
   height: 150px;
-  
-
+  border-radius: 16px;
      }
+     
+  body{
+   background-color: blue;
+  }
+
+    
