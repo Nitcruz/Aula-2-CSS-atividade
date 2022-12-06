@@ -8,19 +8,12 @@ header{
   background-color: yellow;  
     display: flex;
   justify-content: space-between;
-  margin-bottom: 0;
+
   padding-bottom: 1rem;
  
   
   }
 
-  h1{
-    color: white;
-  }
-
-  h2{
-    color: white;
-  }
 nav{
   
   text-decoration: none;
@@ -41,6 +34,8 @@ li{
 
  main {
   background-color: aqua;
+  padding-top: 10px;
+  color: white;
  }
 section{
   display: flex;
@@ -51,6 +46,6 @@ section{
   padding: 1rem;
   width: 300px;
   height: 150px;
-  color: white;
+  
 
      }
